@@ -28,7 +28,7 @@ ListNode* toDelete=A;
             delete toDelete;
             return A;
         }
-    for(int i=0;i<begin-1;i++){
+    for(int i=1;i<begin;i++){
         fast=fast->next;
     }
         ListNode* toDelete=fast->next;
