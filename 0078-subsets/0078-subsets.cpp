@@ -1,7 +1,7 @@
 class Solution {
 public:
     void calc(int i,vector<vector<int>>& sol,vector<int>& ds,vector<int>& nums) {
-if(i>nums.size()-1)  {
+if(i>=nums.size())  {
     sol.push_back(ds);
     return;
 }
